@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 
-import { dataSources, getClient } from '../../lib/ocap';
+import { dataSources, getClient } from '../../libs/ocap';
 
 import Layout from '../../components/Layout';
 import Loading from '../../components/Loading';
