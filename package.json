@@ -1,5 +1,5 @@
 {
-  "name": "ocap-react-starter",
+  "name": "@arcblock/ocap-react-starter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
