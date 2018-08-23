@@ -49,7 +49,10 @@ yarn serve
 
 We recommend deploying your project to [now.sh](http://zeit.now/):
 
+1. create an account at https://zeit.co/
+1. install zeit cli: `npm install -g now`
+1. login through zeit-cli, `now login`
 1. change your domain alias in [deploy.sh](./deploy.sh)
-2. run `npm run deploy`
+1. run `npm run deploy`
 
 Congratulations, your project is online.
