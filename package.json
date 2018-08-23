@@ -15,6 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "./deploy.sh",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
