@@ -45,6 +45,11 @@ yarn serve
 - [semantic-ui-react](https://github.com/oblador/react-native-vector-https://react.semantic-ui.com/icons)
 - [semantic-ui-css](https://github.com/Semantic-Org/Semantic-UI-CSS)
 
-## Important NOTE
+## Deployment
 
-The `template` folder just duplicate some files and folders in the root folder, you should not change any files in this folder by hand, the recommended way to update `template` folder is to run `npm run prepublish` command.
+We recommend deploying your project to [now.sh](http://zeit.now/):
+
+1. change your domain alias in [deploy.sh](./deploy.sh)
+2. run `npm run deploy`
+
+Congratulations, your project is online.
