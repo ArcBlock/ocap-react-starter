@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@arcblock/ocap-js": "^0.3.10",
+    "@arcblock/ocap-js": "latest",
     "@arcblock/react-scripts": "1.1.10",
     "babel-polyfill": "^6.26.0",
     "react": "^16.4.2",
