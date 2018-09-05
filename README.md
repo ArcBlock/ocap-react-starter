@@ -1,5 +1,7 @@
 # ocap-react-starter
 
+![](https://img.shields.io/badge/powered%20by-arcblock-brightgreen.svg)
+
 > OCAP DApp starter template with [@arcblock/ocap-js](https://github.com/ArcBlock/ocap-javascript-sdk/tree/master/packages/ocap-js) integrated, bootstrapped using [create-react-app](https://github.com/facebook/create-react-app).
 
 ## Use as custom react-scripts
