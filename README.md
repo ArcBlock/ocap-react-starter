@@ -4,7 +4,7 @@
 
 > OCAP DApp starter template with [@arcblock/ocap-js](https://github.com/ArcBlock/ocap-javascript-sdk/tree/master/packages/ocap-js) integrated, bootstrapped using [create-react-app](https://github.com/facebook/create-react-app).
 
-> For English documentation, please checkout [README.md](./README.md)
+> 中文版文档请猛击 [README.cn.md](./README.cn.md)
 
 ## Use as custom react-scripts
 
