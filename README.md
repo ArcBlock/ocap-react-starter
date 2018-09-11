@@ -6,7 +6,9 @@
 
 > 中文版文档请猛击 [README.cn.md](./README.cn.md)
 
-## Use as custom react-scripts
+## Usage
+
+### 1. Use as custom react-scripts
 
 Make sure you have npm v6+ installed.
 
@@ -16,7 +18,7 @@ cd my-ocap-app
 yarn start
 ```
 
-## Use as starter template
+### 2. Use as starter template
 
 ```shell
 git clone https://github.com/ArcBlock/ocap-react-starter.git
@@ -27,9 +29,9 @@ yarn serve
 
 ## OCAP SDK Usage Example
 
-- [src/libs/ocap.js](./src/libs/ocap.js)
-- [src/pages/Query/index.js](./src/pages/Query/index.js)
-- [src/pages/Subscription/index.js](./src/pages/Subscription/index.js)
+- SDK Initialize: [src/libs/ocap.js](./src/libs/ocap.js)
+- Query Demo: [src/pages/Query/index.js](./src/pages/Query/index.js)
+- Subscription Demo: [src/pages/Subscription/index.js](./src/pages/Subscription/index.js)
 
 ## OCAP SDK Documentation
 

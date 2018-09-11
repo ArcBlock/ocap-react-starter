@@ -6,7 +6,9 @@
 
 > For English documentation, please checkout [README.md](./README.md)
 
-## 作为 create-react-app 的 react-scripts
+## 使用方法
+
+### 1. 作为 create-react-app 的 react-scripts
 
 需要安装 npm v6+，自带了 npx 命令，直接使用如下命令初始化项目：
 
@@ -16,7 +18,7 @@ cd my-ocap-app
 yarn start
 ```
 
-## 作为种子项目：直接克隆使用
+### 2. 作为种子项目：直接克隆使用
 
 ```shell
 git clone https://github.com/ArcBlock/ocap-react-starter.git
@@ -27,9 +29,9 @@ yarn serve
 
 ## OCAP SDK 代码示例
 
-- [src/libs/ocap.js](./src/libs/ocap.js)
-- [src/pages/Query/index.js](./src/pages/Query/index.js)
-- [src/pages/Subscription/index.js](./src/pages/Subscription/index.js)
+- SDK 初始化和封装：[src/libs/ocap.js](./src/libs/ocap.js)
+- 使用 SDK 做查询：[src/pages/Query/index.js](./src/pages/Query/index.js)
+- 使用 SDK 做实时数据订阅：[src/pages/Subscription/index.js](./src/pages/Subscription/index.js)
 
 ## OCAP SDK 文档
 
@@ -42,7 +44,7 @@ yarn serve
 - [OCAP Playground：快速执行查询、预览结果](https://ocap.arcblock.io)
 - [OCAP Playbook：记录、分享基于区块链的数据研究](https://ocap.arcblock.io)
 
-## Other Libraries Included
+## 项目内含的三方库
 
 - [react-router-dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
 - [semantic-ui-react](https://github.com/oblador/react-native-vector-https://react.semantic-ui.com/icons)
