@@ -27,6 +27,8 @@ yarn
 yarn serve
 ```
 
+> If you are from China, use a mirror npm registry maybe better: `yarn --registry=https://registry.npm.taobao.org`
+
 ## OCAP SDK Usage Example
 
 - SDK Initialize: [src/libs/ocap.js](./src/libs/ocap.js)

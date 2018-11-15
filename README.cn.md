@@ -27,6 +27,8 @@ yarn
 yarn serve
 ```
 
+> 如果是国内开发者，建议使用淘宝源安装依赖: `yarn --registry=https://registry.npm.taobao.org`
+
 ## OCAP SDK 代码示例
 
 - SDK 初始化和封装：[src/libs/ocap.js](./src/libs/ocap.js)
