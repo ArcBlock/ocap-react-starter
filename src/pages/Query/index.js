@@ -41,9 +41,7 @@ class QueryDemo extends Component {
     return (
       <Layout>
         <h2>Query Demo</h2>
-        <p className="alert">
-          Open BROWSER CONSOLE to view methods provided by OCAPClient.
-        </p>
+        <p className="alert">Open BROWSER CONSOLE to view methods provided by OCAPClient.</p>
         {loading && (
           <p>
             Loading account summary for {dataSource.name.toUpperCase()} account:{' '}
@@ -54,8 +52,7 @@ class QueryDemo extends Component {
         {loading || (
           <div>
             <p>
-              Account summary for {dataSource.name.toUpperCase()} account:{' '}
-              {dataSource.demoAddress}
+              Account summary for {dataSource.name.toUpperCase()} account: {dataSource.demoAddress}
             </p>
             <pre>
               <code>{JSON.stringify(summary, true, '  ')}</code>

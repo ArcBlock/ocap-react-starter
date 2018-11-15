@@ -3,8 +3,6 @@ import React, { Component } from 'react';
 import { withRouter, Link } from 'react-router-dom';
 import Layout from '../../components/Layout';
 
-import './style.css';
-
 class Home extends Component {
   render() {
     return (
@@ -15,18 +13,14 @@ class Home extends Component {
             This is a starter project with{' '}
             <a
               href="https://github.com/ArcBlock/ocap-javascript-sdk/tree/master/packages/ocap-js"
-              target="_blank"
-            >
+              target="_blank">
               @arcblock/ocap-js
             </a>{' '}
             integrated for React Developers. It's bootstrapped by
-            <a
-              href="https://github.com/facebook/create-react-app"
-              target="_blank"
-              rel="noopener"
-            >
+            <a href="https://github.com/facebook/create-react-app" target="_blank" rel="noopener">
               create-react-app
-            </a>.
+            </a>
+            .
           </p>
           <div className="link-sections">
             <div className="link-section">
@@ -51,8 +45,7 @@ class Home extends Component {
                   <a
                     href="https://github.com/ArcBlock/ocap-javascript-sdk/tree/master/packages/ocap-js"
                     target="_blank"
-                    rel="noopener"
-                  >
+                    rel="noopener">
                     SDK Homepage
                   </a>
                 </li>
@@ -60,8 +53,7 @@ class Home extends Component {
                   <a
                     href="https://github.com/ArcBlock/ocap-javascript-sdk/blob/master/packages/ocap-js/docs/spec.md"
                     target="_blank"
-                    rel="noopener"
-                  >
+                    rel="noopener">
                     SDK API Specification
                   </a>
                 </li>
@@ -69,8 +61,7 @@ class Home extends Component {
                   <a
                     href="https://github.com/ArcBlock/ocap-javascript-sdk/blob/master/packages/ocap-js/docs/btc.md"
                     target="_blank"
-                    rel="noopener"
-                  >
+                    rel="noopener">
                     Bitcoin API and Response Formats
                   </a>
                 </li>
@@ -78,8 +69,7 @@ class Home extends Component {
                   <a
                     href="https://github.com/ArcBlock/ocap-javascript-sdk/blob/master/packages/ocap-js/docs/eth.md"
                     target="_blank"
-                    rel="noopener"
-                  >
+                    rel="noopener">
                     Ethereum API and Response Formats
                   </a>
                 </li>
@@ -89,10 +79,7 @@ class Home extends Component {
               <h3>React Libraries Integrated</h3>
               <ul>
                 <li>
-                  <a
-                    href="https://github.com/ReactTraining/react-router"
-                    target="_blank"
-                  >
+                  <a href="https://github.com/ReactTraining/react-router" target="_blank">
                     react-router
                   </a>
                 </li>
@@ -102,10 +89,7 @@ class Home extends Component {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://github.com/Semantic-Org/Semantic-UI-CSS"
-                    target="_blank"
-                  >
+                  <a href="https://github.com/Semantic-Org/Semantic-UI-CSS" target="_blank">
                     semantic-ui-css
                   </a>
                 </li>

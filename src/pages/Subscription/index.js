@@ -46,27 +46,14 @@ class SubscriptionDemo extends Component {
 
     return (
       <Layout>
-        <h2>
-          Subscription Demo: {dataSource.name.toUpperCase()}.newBlockMined
-        </h2>
+        <h2>Subscription Demo: {dataSource.name.toUpperCase()}.newBlockMined</h2>
 
-        <p className="alert">
-          Open BROWSER CONSOLE to view methods provided by OCAPClient.
-        </p>
+        <p className="alert">Open BROWSER CONSOLE to view methods provided by OCAPClient.</p>
 
-        {subscribed || (
-          <p>
-            Try to subscribe to {dataSource.name.toUpperCase()}.newBlockMined
-          </p>
-        )}
-        {subscribed && (
-          <p>
-            {dataSource.name.toUpperCase()}.newBlockMined subscription success
-          </p>
-        )}
+        {subscribed || <p>Try to subscribe to {dataSource.name.toUpperCase()}.newBlockMined</p>}
+        {subscribed && <p>{dataSource.name.toUpperCase()}.newBlockMined subscription success</p>}
 
-        {subscribed &&
-        !message && (
+        {subscribed && !message && (
           <div>
             <p>waiting for data</p>
             <Loading />
@@ -76,8 +63,7 @@ class SubscriptionDemo extends Component {
         {message && (
           <div>
             <p>
-              New {dataSource.name.toUpperCase()} blocked mined at{' '}
-              {timestamp.toString()}:
+              New {dataSource.name.toUpperCase()} blocked mined at {timestamp.toString()}:
             </p>
             <pre>
               <code>{JSON.stringify(message, true, '  ')}</code>
