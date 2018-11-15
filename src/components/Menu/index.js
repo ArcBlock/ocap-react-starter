@@ -7,18 +7,18 @@ import logo from './logo.png';
 const MenuComponent = () => (
   <Menu inverted>
     <Container>
-      <Menu.Item as="a" header>
+      <Menu.Item header>
         <Image size="mini" src={logo} style={{ marginRight: '1.5em' }} />
-        OCAP React Starter
-      </Menu.Item>
-      <Menu.Item>
-        <Link to="/">Home</Link>
+        <Link to="/">OCAP React Starter</Link>
       </Menu.Item>
       <Menu.Item>
         <Link to="/query">Query Demo</Link>
       </Menu.Item>
       <Menu.Item>
         <Link to="/subscription">Subscription Demo</Link>
+      </Menu.Item>
+      <Menu.Item>
+        <Link to="/mutation">Mutation Demo</Link>
       </Menu.Item>
     </Container>
   </Menu>

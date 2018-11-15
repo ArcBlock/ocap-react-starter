@@ -34,6 +34,7 @@ yarn serve
 - SDK Initialize: [src/libs/ocap.js](./src/libs/ocap.js)
 - Query Demo: [src/pages/Query/index.js](./src/pages/Query/index.js)
 - Subscription Demo: [src/pages/Subscription/index.js](./src/pages/Subscription/index.js)
+- Mutation Demo: [src/pages/Mutation/index.js](./src/pages/Mutation/index.js)
 
 ## OCAP SDK Documentation
 

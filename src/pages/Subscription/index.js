@@ -19,26 +19,25 @@ class SubscriptionDemo extends Component {
       subscribed: false,
     };
 
-    console.log(getClient(this.state.dataSource.name));
+    this.client = getClient(this.state.dataSource.name);
+    console.log(this.client);
   }
 
-  async componentDidMount() {
-    const client = getClient(this.state.dataSource.name);
+  componentDidMount() {
+    this.client.newBlockMined().then(subscription => {
+      subscription.on('data', data => {
+        this.setState({
+          message: data,
+          timestamp: new Date(),
+        });
 
-    // Subscription
-    const subscription = await client.newBlockMined();
-    subscription.on('data', data => {
-      this.setState({
-        message: data,
-        timestamp: new Date(),
+        setTimeout(() => {
+          this.setState({ message: null });
+        }, 5000);
       });
 
-      setTimeout(() => {
-        this.setState({ message: null });
-      }, 5000);
+      this.setState({ subscribed: true });
     });
-
-    this.setState({ subscribed: true });
   }
 
   render() {
